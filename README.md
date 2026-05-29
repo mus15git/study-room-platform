@@ -1,66 +1,41 @@
 # Study Room Platform
 
-A full-stack Study Room Platform built using the MERN stack. Users can create study rooms, join rooms, chat in real time, and manage study sessions using a customizable timer.
+A collaborative study room application where users can create rooms, join discussions, chat in real-time, and use a study timer.
 
 ## Features
 
-* User Registration
-* User Login
-* JWT Authentication
-* Protected Routes
-* Create Study Rooms
-* Join Study Rooms
-* Delete Study Rooms
-* Real-Time Chat using Socket.IO
-* Custom Study Timer
-* Logout Functionality
-* MongoDB Atlas Integration
+- User Registration & Login
+- Protected Routes
+- Create Study Rooms
+- Join Study Rooms
+- Real-time Chat using Socket.IO
+- Custom Study Timer
+- Delete Rooms
+- Responsive UI
 
 ## Tech Stack
 
-### Frontend
+Frontend:
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
 
-* React.js
-* React Router DOM
-* Tailwind CSS
-* Axios
-* React Hot Toast
-
-### Backend
-
-* Node.js
-* Express.js
-* Socket.IO
-* JWT Authentication
-* bcryptjs
-
-### Database
-
-* MongoDB Atlas
-
-## Project Structure
-
-study-room-platform/
-
-client/
-
-* React Frontend
-
-server/
-
-* Express Backend
-* MongoDB Models
-* Routes
-* Socket.IO
+Backend:
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- Socket.IO
+- JWT Authentication
 
 ## Installation
 
-### Frontend
+### Clone Repository
 
 ```bash
-cd client
-npm install
-npm run dev
+git clone https://github.com/mus15git/study-room-platform.git
 ```
 
 ### Backend
@@ -71,49 +46,18 @@ npm install
 npm run dev
 ```
 
-## Environment Variables
+### Frontend
 
-Create a `.env` file inside the server folder:
-
-```env
-PORT=5000
-MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
-JWT_SECRET=YOUR_SECRET_KEY
+```bash
+cd client
+npm install
+npm run dev
 ```
 
-## Application Modules
+## Live Demo
 
-### Authentication
+Frontend:
+https://study-room-platform-1.onrender.com
 
-* Register
-* Login
-* Logout
-* Protected Routes
-
-### Study Rooms
-
-* Create Room
-* Join Room
-* Delete Room
-
-### Real-Time Chat
-
-* Socket.IO Integration
-* Live Messaging
-
-### Study Timer
-
-* Custom Duration
-* Start / Pause / Reset
-
-## Future Enhancements
-
-* Online User Count
-* Chat History Persistence
-* Video Calling
-* Forgot Password
-* Study Analytics Dashboard
-
-## Author
-
-Developed as an Internship Assignment Project using the MERN Stack.
+Backend:
+https://study-room-platform-73m5.onrender.com
